@@ -3,6 +3,7 @@ name: Laboratorio 1 Funcional Algo 1 UNC
 locale: es
 type: learning
 beta: false
+teacher_info: ''
 language: haskell
 id_format: "%05d"
 order: []
