@@ -1,4 +1,4 @@
-{-...extra...-}
-
 promedio :: [Int] -> Int
 promedio ... = ...
+
+{-...extra...-}
