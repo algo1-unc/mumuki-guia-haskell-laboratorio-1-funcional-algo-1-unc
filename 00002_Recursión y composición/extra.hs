@@ -1,7 +1,7 @@
-fac_ :: Int -> Int
-fac_ 0    = 1
-fac_ e    = e * fac_ (e-1)
+_fac :: Int -> Int
+_fac 0    = 1
+_fac e    = e * _fac (e-1)
 
-avg_ :: [Int] -> Int
-avg_ [] = 0
-avg_ xs = sum xs `div` length xs
+_avg :: [Int] -> Int
+_avg [] = 0
+_avg xs = sum xs `div` length xs

@@ -1,5 +1,4 @@
 describe "esCero" $ do 
-  
   it "Devuelvo True dado 0" $ do
     esCero 0 `shouldBe` True
   
@@ -20,7 +19,6 @@ describe "esPositivo" $ do
     esPositivo (1) `shouldBe` True
 
 describe "esVocal" $ do
-
   it "Devuelve True dado 'a' " $ do
     esVocal 'a' `shouldBe` True
   
@@ -57,4 +55,5 @@ describe "esVocal" $ do
   it "Devuelve False dado ' ' " $ do
     esVocal ' ' `shouldBe` False
   
-  
+  it "Devuelve False dado '9' " $ do
+    esVocal '9' `shouldBe` False
