@@ -1,4 +1,4 @@
-{-...solution[-1]...-}
+
 factorial :: Int -> Int
 factorial ... = ...
 
