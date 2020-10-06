@@ -1,4 +1,4 @@
-## Funciones, tipos y alto orden
+#### **Funciones, tipos y alto orden**
 
 **Objetivo**
 
