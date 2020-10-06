@@ -1,4 +1,4 @@
-{-...extra...-}{-...previousSolution...-}
+{-...extra...-}
 
 describe "promedio" $ do
   let v_in = []::[Int]

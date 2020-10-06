@@ -1,3 +1,6 @@
+{-...previousSolution...-}
+
+{-[IgnoreContentOnQuery]-}
 
 my_avg :: [Int] -> Int
 my_avg [] = 0
