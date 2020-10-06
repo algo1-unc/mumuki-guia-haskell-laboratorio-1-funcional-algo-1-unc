@@ -1,4 +1,4 @@
-{-...solution[-1]...-}
+{-...solution[2]...-}
 
 describe "factorial" $ do
   let v_in = 0

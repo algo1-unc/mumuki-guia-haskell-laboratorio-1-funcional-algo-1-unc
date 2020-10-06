@@ -1,4 +1,4 @@
-Programá las siguientes funciones usando recursión o composición:
+Programá las siguientes funciones usando recursión:
 
 * a) ```paratodo :: [Bool] -> Bool```,  que  verifica que todos los  elementos  de  una  lista sean True.
 * b) ```sumatoria :: [Int] -> Int```,  que  calcula  la  suma  de  todos  los  elementos  de  una lista de enteros.
