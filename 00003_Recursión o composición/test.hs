@@ -1,5 +1,3 @@
-{-...solution[2]...-}
-
 describe "factorial" $ do
   let v_in = 0
   let v_out = 1
