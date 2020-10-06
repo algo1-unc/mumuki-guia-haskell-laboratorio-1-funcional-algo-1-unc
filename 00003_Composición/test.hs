@@ -1,4 +1,4 @@
-{-...previousSolution...-}
+{-...extra...-}
 
 my_avg :: [Int] -> Int
 my_avg [] = 0
