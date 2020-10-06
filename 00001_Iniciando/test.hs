@@ -1,17 +1,17 @@
 describe "esCero" $ do 
   
-  it "Devuelvo False dado 0" $ do
-    esCero 0 `shouldBe` False
+  it "Devuelvo True dado 0" $ do
+    esCero 0 `shouldBe` True
   
-  it "Devuelvo True dado 12" $ do
-    esCero 12 `shouldBe` True
+  it "Devuelvo False dado 12" $ do
+    esCero 12 `shouldBe` False
   
   it "Devuelve False dado -33" $ do
     esCero (-33) `shouldBe` False
     
 describe "esPositivo" $ do
-  it "Devuelve True dado 0 " $ do
-    esPositivo 0 `shouldBe` True
+  it "Devuelve False dado 0 " $ do
+    esPositivo 0 `shouldBe` False
   
   it "Devuelve False dado -1 " $ do
     esPositivo (-1) `shouldBe` False
