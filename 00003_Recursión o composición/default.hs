@@ -1,6 +1,0 @@
-
-factorial :: Int -> Int
-factorial ... = ...
-
-promedio :: [Int] -> Int
-promedio ... = ...

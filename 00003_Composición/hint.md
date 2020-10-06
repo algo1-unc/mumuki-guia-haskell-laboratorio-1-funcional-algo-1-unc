@@ -1,0 +1,1 @@
+:sunglasses: Utilizá la función **sumatoria** que programaste en el ejercicio anterior, y la función **length** icluida en el preludio de ムHaskell
