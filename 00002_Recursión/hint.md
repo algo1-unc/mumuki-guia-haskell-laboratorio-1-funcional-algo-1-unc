@@ -1,0 +1,1 @@
+Recordá los casos bases de cada una de estas funciones :grin:.
