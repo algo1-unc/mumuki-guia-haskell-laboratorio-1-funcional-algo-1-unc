@@ -1,2 +1,2 @@
 promedio :: [Int] -> Int
-promedio ... = ...
+promedio = undefined
