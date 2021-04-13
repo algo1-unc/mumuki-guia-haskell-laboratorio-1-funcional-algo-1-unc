@@ -1,3 +1,9 @@
+describe "Group description" $ do 
+  
+  it "Sample description" $ do
+    True `shouldBe` True
+
+{-
 describe "promedio" $ do
   let v_in = []::[Int]
   let v_out = 0
@@ -22,3 +28,4 @@ describe "promedio" $ do
   let msg = "Devuelve " ++ show(v_out) ++ " dado " ++ show(v_in)
   it msg $ do
     promedio v_in `shouldBe` v_out
+-}
