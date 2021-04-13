@@ -1,8 +1,8 @@
 esCero :: Int -> Bool
-esCero ... = ...
+esCero = undefined
 
 esPositivo :: Int -> Bool
-esPositivo ... = ...
+esPositivo = undefined
 
 esVocal :: Char -> Bool
-esVocal ... = ...
+esVocal = undefined
