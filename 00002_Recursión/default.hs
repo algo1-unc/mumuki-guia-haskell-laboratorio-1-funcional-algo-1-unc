@@ -1,11 +1,11 @@
 paratodo :: [Bool] -> Bool
-paratodo ... = ...
+paratodo = undefined
 
 sumatoria :: [Int] -> Int
-sumatoria ... = ...
+sumatoria = undefined
 
 productoria :: [Int] -> Int
-productoria ... = ...
+productoria = undefined
 
 factorial :: Int -> Int
-factorial ... = ...
+factorial = undefined
