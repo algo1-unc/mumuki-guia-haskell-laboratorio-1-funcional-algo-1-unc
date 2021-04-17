@@ -5,11 +5,11 @@ describe "paratodo'" $ do
   it msg $ do
     paratodo' v_in (== 0) `shouldBe` v_out
 
-  let v_in = [[True, True], [False]]
-  let v_out = False
-  let msg = "Devuelve " ++ show(v_out) ++ " dado " ++ show(v_in) ++ " " ++ "paratodo"
-  it msg $ do
-    paratodo' v_in (foldr (&&) True) `shouldBe` v_out
+--  let v_in = [[True, True], [False]]
+--  let v_out = False
+--  let msg = "Devuelve " ++ show(v_out) ++ " dado " ++ show(v_in) ++ " " ++ "paratodo"
+--  it msg $ do
+--    paratodo' v_in (foldr (&&) True) `shouldBe` v_out
 
   let v_in = [1..10]
   let v_out = True
@@ -65,11 +65,11 @@ describe "existe'" $ do
   it msg $ do
     existe' v_in (== 0) `shouldBe` v_out
 
-  let v_in = [[True, True], [False]]
-  let v_out = True
-  let msg = "Devuelve " ++ show(v_out) ++ " dado " ++ show(v_in) ++ " " ++ "paratodo"
-  it msg $ do
-    existe' v_in (foldr (&&) True) `shouldBe` v_out
+--  let v_in = [[True, True], [False]]
+--  let v_out = True
+--  let msg = "Devuelve " ++ show(v_out) ++ " dado " ++ show(v_in) ++ " " ++ "paratodo"
+--  it msg $ do
+--    existe' v_in (foldr (&&) True) `shouldBe` v_out
 
   let v_in = [-10..1]
   let v_out = True
