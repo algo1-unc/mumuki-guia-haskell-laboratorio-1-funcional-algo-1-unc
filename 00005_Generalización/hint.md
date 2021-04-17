@@ -1,1 +1,0 @@
-¿Cambiarías algo de los casos bases y recursivos de las funciones que definiste en el ejercicio 2?
