@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: paratodo'
+  inspection: DeclaresRecursively:paratodo'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: existe'
+  inspection: DeclaresRecursively:existe'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: sumatoria'
+  inspection: DeclaresRecursively:sumatoria'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: productoria'
+  inspection: DeclaresRecursively:productoria'
