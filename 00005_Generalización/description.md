@@ -12,7 +12,7 @@ predicado `t :: a -> Bool`, determina si algún elemento de *xs* satisface el pr
 
 > ```haskell
 existe' [0, 2, 3] esCero = True
-existe' [False, False, True] id = True
+existe' [[True, True], [False]] paratodo = True
 ```
 
 >* c) `sumatoria’ :: [a] -> (a -> Int) -> Int`, dada una lista *xs* de tipo *[a]* y una función `t :: a -> Int` (toma elementos de tipo a y devuelve enteros), calcula la suma de los valores que resultan de la aplicación de *t* a los elementos de *xs*.

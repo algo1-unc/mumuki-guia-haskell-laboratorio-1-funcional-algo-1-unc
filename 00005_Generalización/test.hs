@@ -1,7 +1,7 @@
 describe "paratodo'" $ do
   let v_in = []::[Int]
   let v_out = True
-  let msg = "Devuelve " ++ show(v_out) ++ " dado " ++ show(v_in) ++ " " ++ "(== 0)"
+  let msg = "Devuelve " ++ show(v_out) ++ " dado " ++ show(v_in) ++ " " ++ "esCero"
   it msg $ do
     paratodo' v_in (== 0) `shouldBe` v_out
 
@@ -13,7 +13,7 @@ describe "paratodo'" $ do
 
   let v_in = [1..10]
   let v_out = True
-  let msg = "Devuelve " ++ show(v_out) ++ " dado " ++ show(v_in) ++ " " ++ "(> 0)asdasd"
+  let msg = "Devuelve " ++ show(v_out) ++ " dado " ++ show(v_in) ++ " " ++ "esPositivo"
   it msg $ do
     paratodo' v_in (> 0) `shouldBe` v_out
 
@@ -61,7 +61,7 @@ describe "productoria'" $ do
 describe "existe'" $ do
   let v_in = []::[Int]
   let v_out = False
-  let msg = "Devuelve " ++ show(v_out) ++ " dado " ++ show(v_in) ++ " " ++ "(== 0)"
+  let msg = "Devuelve " ++ show(v_out) ++ " dado " ++ show(v_in) ++ " " ++ "esCero"
   it msg $ do
     existe' v_in (== 0) `shouldBe` v_out
 
@@ -73,6 +73,6 @@ describe "existe'" $ do
 
   let v_in = [-10..1]
   let v_out = True
-  let msg = "Devuelve " ++ show(v_out) ++ " dado " ++ show(v_in) ++ " " ++ "(> 0)"
+  let msg = "Devuelve " ++ show(v_out) ++ " dado " ++ show(v_in) ++ " " ++ "esPositivo"
   it msg $ do
     existe' v_in (> 0) `shouldBe` v_out
