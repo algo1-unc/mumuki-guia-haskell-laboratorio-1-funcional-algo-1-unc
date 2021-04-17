@@ -28,14 +28,14 @@ describe "sumatoria'" $ do
   let v_out = sum (map (*2) v_in)
   let msg = "Devuelve " ++ show(v_out) ++ " dado " ++ show(v_in) ++ " " ++ "(*2)"
   it msg $ do
-    sumatoria' v_in `shouldBe` v_out
+    sumatoria' v_in (*2) `shouldBe` v_out
 
   let v_in = [True, False, False, True]
   let f = \x -> if x then 1::Int else 0
   let v_out = sum $ map f v_in
   let msg = "Devuelve " ++ show(v_out) ++ " dado " ++ show(v_in) ++ " " ++ "(\b -> if b then 1::Int else 0)" 
   it msg $ do
-    sumatoria' v_in  `shouldBe` v_out
+    sumatoria' v_in f `shouldBe` v_out
 
 describe "productoria'" $ do
   let v_in = []::[Int]
