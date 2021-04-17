@@ -7,7 +7,7 @@ describe "paratodo'" $ do
 
   let v_in = [[True, True], [False]]
   let v_out = False
-  let msg = "paratodo'" ++ " " ++ show(v_in) ++ " " ++ "\(foldr \(&&\) True\) == " ++ show(v_out)
+  let msg = "paratodo'" ++ " " ++ show(v_in) ++ " " ++ "\(foldr (&&) True\) == " ++ show(v_out)
   it msg $ do
     paratodo' v_in (foldr (&&) True) `shouldBe` v_out
 
