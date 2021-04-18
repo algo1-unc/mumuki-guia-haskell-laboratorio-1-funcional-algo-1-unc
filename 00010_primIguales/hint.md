@@ -1,0 +1,1 @@
+ム Recordá que podes agregar varios casos bases de acuerdo a lo que necesites para el paso inductivo :thinking: .
