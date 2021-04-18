@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: primIgualesA
+  inspection: DeclaresRecursively:primIgualesA
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: primIgualesA'
+  inspection: HasUsageTypos:takeWhile
