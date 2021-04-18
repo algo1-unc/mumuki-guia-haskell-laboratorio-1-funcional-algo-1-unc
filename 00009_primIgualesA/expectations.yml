@@ -6,3 +6,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: primIgualesA'
   inspection: HasUsageTypos:takeWhile
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: primIgualesA'
+  inspection: Not:DeclaresRecursively:primIgualesA'
