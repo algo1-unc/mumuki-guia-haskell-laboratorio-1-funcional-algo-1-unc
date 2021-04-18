@@ -1,0 +1,1 @@
+ム Recordá que podes usar funciones auxiliares o lambdas! :sunglasses:
