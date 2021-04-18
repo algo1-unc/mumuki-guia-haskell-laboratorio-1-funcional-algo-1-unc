@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: filtrarPares
+  inspection: DeclaresRecursively:filtrarPares
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: filtrarPares'
+  inspection: HasUsageTypos:filter
