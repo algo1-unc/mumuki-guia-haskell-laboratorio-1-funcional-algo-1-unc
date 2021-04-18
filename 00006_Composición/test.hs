@@ -52,16 +52,16 @@ describe "sumaCuadrados" $ do
   it msg $ do
     sumaCuadrados v_in `shouldBe` v_out
 
-describe "factorial" $ do
+describe "factorial'" $ do
   let v_in = 10
   let v_out = product $ [1..v_in]
   let msg = "Devuelve " ++ show(v_out) ++ " dado " ++ show(v_in)
   it msg $ do
-    factorial v_in `shouldBe` v_out
+    factorial' v_in `shouldBe` v_out
   
   let v_in = 0
   let v_out = product $ [1..v_in]
   let msg = "Devuelve " ++ show(v_out) ++ " dado " ++ show(v_in)
   it msg $ do
-    factorial v_in `shouldBe` v_out
+    factorial' v_in `shouldBe` v_out
 
