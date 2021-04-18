@@ -1,0 +1,32 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: todosPares
+  inspection: Not:DeclaresRecursively:todosPares
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: hayMultiplo
+  inspection: Not:DeclaresRecursively:hayMultiplo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: sumaCuadrados
+  inspection: Not:DeclaresRecursively:sumaCuadrados
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: factorial'
+  inspection: Not:DeclaresRecursively:factorial'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: multiplicaPares
+  inspection: Not:DeclaresRecursively:multiplicaPares
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: todosPares
+  inspection: HasUsageTypos:paratodo'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: hayMultiplo
+  inspection: HasUsageTypos:existe'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: sumaCuadrados
+  inspection: HasUsageTypos:sumatoria'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: factorial
+  inspection: HasUsageTypos:productoria'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: multiplicaPares
+  inspection: HasUsageTypos:productoria'
