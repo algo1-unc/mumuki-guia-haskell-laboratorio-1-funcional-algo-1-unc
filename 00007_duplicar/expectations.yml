@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: duplicar
+  inspection: DeclaresRecursively:duplicar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: duplicar
+  inspection: HasUsageTypos:map
