@@ -1,1 +1,1 @@
-¡Recordá especificar correctamente el tipo de la función!
+¡Acordate de revisar antes el teórico sobre tipos polimórficos paramétricos!
