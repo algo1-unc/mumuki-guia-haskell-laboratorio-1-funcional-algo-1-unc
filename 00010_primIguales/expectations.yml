@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: primIguales
+  inspection: DeclaresRecursively:primIguales
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: primIguales'
+  inspection: Not:DeclaresRecursively:primIguales'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: primIguales'
+  inspection: HasUsageTypos:primIgualesA
