@@ -6,3 +6,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: filtrarPares'
   inspection: HasUsageTypos:filter
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Except:HasWrongCaseIdentifiers
